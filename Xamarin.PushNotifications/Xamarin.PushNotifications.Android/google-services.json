@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "788754634944",
+    "firebase_url": "https://xamarin-push-notificatio-83972.firebaseio.com",
+    "project_id": "xamarin-push-notificatio-83972",
+    "storage_bucket": "xamarin-push-notificatio-83972.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788754634944:android:495bb019c11e083628b525",
+        "android_client_info": {
+          "package_name": "com.companyname.Xamarin.PushNotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788754634944-5saufpree7rj3lgsi5abajr1j3d3480j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1c0yC9T6U_kIYcHOsPvolUr9uNAmzfQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788754634944-5saufpree7rj3lgsi5abajr1j3d3480j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
