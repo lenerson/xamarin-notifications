@@ -19,11 +19,11 @@ namespace Xamarin.PushNotifications.Droid.Services.Firebase
         {
             if (message.Data.GetEnumerator().MoveNext())
             {
-                var notification = message.GetNotification();
-                SendNotification(notification.Title, notification.Body);
+                SendNotification(message.Data);
                 return;
             }
-            SendNotification(message.Data);
+            var notification = message.GetNotification();
+            SendNotification(notification.Title, notification.Body);
         }
 
         private void SendNotification(string title, string body)
